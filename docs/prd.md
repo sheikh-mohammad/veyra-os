@@ -59,13 +59,13 @@ https://veyra-os.com
 
 Purpose:
 
-* Introduce Veyra OS
-* Explain features
-* Show screenshots/video
-* Explain technology
-* Provide documentation
-* Provide GitHub link
-* Allow users to enter Veyra OS
+- Introduce Veyra OS
+- Explain features
+- Show screenshots/video
+- Explain technology
+- Provide documentation
+- Provide GitHub link
+- Allow users to enter Veyra OS
 
 Primary CTA:
 
@@ -296,17 +296,17 @@ It should visually and behaviorally resemble a modern desktop operating system.
 
 The desktop must support:
 
-* Wallpaper
-* Desktop icons
-* Application windows
-* Taskbar
-* Application launcher
-* System tray
-* Clock
-* Notifications
-* Context menu
-* Window focus
-* Multiple simultaneous applications
+- Wallpaper
+- Desktop icons
+- Application windows
+- Taskbar
+- Application launcher
+- System tray
+- Clock
+- Notifications
+- Context menu
+- Window focus
+- Multiple simultaneous applications
 
 Example:
 
@@ -349,15 +349,15 @@ Example:
 
 Windows must support:
 
-* Drag
-* Resize
-* Minimize
-* Maximize
-* Restore
-* Close
-* Focus
-* Z-index
-* Snap behavior
+- Drag
+- Resize
+- Minimize
+- Maximize
+- Restore
+- Close
+- Focus
+- Z-index
+- Snap behavior
 
 Multiple applications can exist simultaneously.
 
@@ -393,12 +393,12 @@ Veyra Apps
 
 Each application should have:
 
-* Application ID
-* Name
-* Icon
-* Window configuration
-* Entry component
-* Permissions where applicable
+- Application ID
+- Name
+- Icon
+- Window configuration
+- Entry component
+- Permissions where applicable
 
 Example conceptual structure:
 
@@ -526,15 +526,15 @@ The Files application represents Veyra's virtual filesystem.
 
 Users can:
 
-* Create folders
-* Create files
-* Rename items
-* Delete items
-* Move items
-* Search
-* Sort
-* Open files
-* View metadata
+- Create folders
+- Create files
+- Rename items
+- Delete items
+- Move items
+- Search
+- Sort
+- Open files
+- View metadata
 
 The filesystem is virtual and backed by Veyra's backend/database/storage architecture.
 
@@ -546,13 +546,13 @@ Notes behaves as a native Veyra application.
 
 Features:
 
-* Create
-* Edit
-* Delete
-* Rename
-* Search
-* Autosave
-* Last modified timestamp
+- Create
+- Edit
+- Delete
+- Rename
+- Search
+- Autosave
+- Last modified timestamp
 
 Notes belong to the authenticated user.
 
@@ -603,13 +603,13 @@ Veyra Browser provides an application-like browsing environment.
 
 Initial capabilities:
 
-* Address bar
-* Search
-* Back
-* Forward
-* Reload
-* History
-* External websites
+- Address bar
+- Search
+- Back
+- Forward
+- Reload
+- History
+- External websites
 
 The Electron version can eventually provide additional browser capabilities.
 
@@ -722,13 +722,13 @@ Secondary CTA:
 
 Show:
 
-* Boot screen
-* Desktop
-* Windows
-* Files
-* Terminal
-* Settings
-* Electron application
+- Boot screen
+- Desktop
+- Windows
+- Files
+- Terminal
+- Settings
+- Electron application
 
 ---
 
@@ -750,13 +750,13 @@ JWT
 
 Highlight:
 
-* Virtual Desktop
-* Window Manager
-* Cloud Files
-* Virtual Terminal
-* Applications
-* Persistent Workspace
-* Web + Desktop
+- Virtual Desktop
+- Window Manager
+- Cloud Files
+- Virtual Terminal
+- Applications
+- Persistent Workspace
+- Web + Desktop
 
 ---
 
@@ -833,13 +833,13 @@ The same Veyra account should work across both.
 
 The Electron application should provide:
 
-* Native desktop window
-* Veyra OS boot experience
-* Native application lifecycle
-* Secure IPC
-* System tray
-* Desktop notifications where appropriate
-* Future native filesystem capabilities
+- Native desktop window
+- Veyra OS boot experience
+- Native application lifecycle
+- Secure IPC
+- System tray
+- Desktop notifications where appropriate
+- Future native filesystem capabilities
 
 ---
 
@@ -849,14 +849,14 @@ Veyra must clearly be a **virtual operating system**.
 
 The project does not attempt to implement:
 
-* BIOS
-* Bootloader
-* Kernel
-* Device drivers
-* Hardware process scheduler
-* Memory management
-* Actual filesystem kernel
-* CPU scheduling
+- BIOS
+- Bootloader
+- Kernel
+- Device drivers
+- Hardware process scheduler
+- Memory management
+- Actual filesystem kernel
+- CPU scheduling
 
 Instead, Veyra **simulates the user experience and operating-system abstractions at the application layer**.
 
@@ -870,48 +870,48 @@ V1 should focus on the complete operating-system experience.
 
 ### Website
 
-* Landing page
-* Product explanation
-* Feature showcase
-* Architecture
-* GitHub link
-* Enter OS CTA
+- Landing page
+- Product explanation
+- Feature showcase
+- Architecture
+- GitHub link
+- Enter OS CTA
 
 ### OS
 
-* Boot screen
-* Initialization sequence
-* Login
-* Lock screen
-* Desktop
-* Taskbar
-* Application launcher
-* Windows
-* Window manager
-* Virtual power menu
-* Files
-* Notes
-* Terminal
-* Browser
-* Settings
-* Task Manager
+- Boot screen
+- Initialization sequence
+- Login
+- Lock screen
+- Desktop
+- Taskbar
+- Application launcher
+- Windows
+- Window manager
+- Virtual power menu
+- Files
+- Notes
+- Terminal
+- Browser
+- Settings
+- Task Manager
 
 ### Backend
 
-* Registration
-* Login
-* JWT/session management
-* User data
-* Notes
-* Files
-* Settings
-* Desktop state
+- Registration
+- Login
+- JWT/session management
+- User data
+- Notes
+- Files
+- Settings
+- Desktop state
 
 ### Desktop
 
-* Electron shell
-* Boot experience
-* Shared Veyra application
+- Electron shell
+- Boot experience
+- Shared Veyra application
 
 ---
 
@@ -967,16 +967,16 @@ The most important product principle is:
 
 Therefore:
 
-* No normal website navbar inside the OS.
-* No traditional dashboard layout.
-* Applications open as windows.
-* The desktop persists.
-* The taskbar remains available.
-* Power actions affect the virtual OS.
-* Restart returns to the boot sequence.
-* Lock returns to the lock screen.
-* Shutdown presents a powered-off state.
-* The OS has its own visual identity.
+- No normal website navbar inside the OS.
+- No traditional dashboard layout.
+- Applications open as windows.
+- The desktop persists.
+- The taskbar remains available.
+- Power actions affect the virtual OS.
+- Restart returns to the boot sequence.
+- Lock returns to the lock screen.
+- Shutdown presents a powered-off state.
+- The OS has its own visual identity.
 
 ---
 
